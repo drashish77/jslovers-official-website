@@ -21,7 +21,7 @@ body {
   font-family: Roboto;
 }
 .title {
-  font-size: 4.688rem;
+  /* font-size: 4.688rem; */
   line-height: 1.5;
   align-items: center;
 }
@@ -30,4 +30,10 @@ body {
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.4px;
   -webkit-text-stroke-color: #000;
+}
+@media (max-width: 767px) {
+  .speaker-title {
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+  }
 }

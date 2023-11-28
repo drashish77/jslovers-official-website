@@ -2,9 +2,9 @@ import React from "react";
 
 const Speakers = () => {
   return (
-    <div className="container h-[50vh]">
-      <h1>Contact Us</h1>
-    </div>
+    <main className="flex min-h-[100vh] flex-col items-center justify-between p-10 md:p-24">
+      <h1 className="text-4xl md:text-8xl">Comming soon...</h1>
+    </main>
   );
 };
 
