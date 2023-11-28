@@ -10,7 +10,7 @@ const Header = () => {
     setIsOpen((current) => !current);
   };
   return (
-    <header className=" header sticky top-0 z-40  bg-white">
+    <header className="shadow-md header sticky top-0 z-40  bg-white">
       <nav className="sticky top-0 flex  h-[100px] items-center justify-between p-4 lg:container ">
         <div className="">
           <Link href="/">

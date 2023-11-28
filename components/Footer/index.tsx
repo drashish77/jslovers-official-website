@@ -89,7 +89,80 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="mt-12 md:mt-0">
+            <div className="flex justify-between">
+              <div className="space-y-6 text-base tracking-[0.15px] md:space-y-5 md:text-xl">
+                {data.map((item) => {
+                  return (
+                    <Link
+                      href={item.link}
+                      className="flex items-center"
+                      key={item.id}
+                    >
+                      <div className="cursor-pointer" key={item.id}>
+                        <h3 className="">{item.heading}</h3>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+              <div className="mr-8 block md:hidden">
+                <h3 className="mb-5 text-xl">Sponsers</h3>
+                <Link
+                  href="https://www.amazon.com"
+                  target="_blank"
+                  className="flex items-center"
+                >
+                  <Image
+                    src="/images/amazon.svg"
+                    width={70}
+                    height={70}
+                    alt="amazon logo"
+                    className="object-contain"
+                  />
+                </Link>
+                <Link
+                  href="https://ibm.com/"
+                  target="_blank"
+                  className="mt-5 flex items-center"
+                >
+                  <Image
+                    src="/images/ibm.svg"
+                    width={70}
+                    height={70}
+                    alt="logo of ibm"
+                    className="object-contain"
+                  />
+                </Link>
+                <Link
+                  href="https://microsoft.com/"
+                  target="_blank"
+                  className="mt-5 flex items-center"
+                >
+                  <Image
+                    src="/images/microsoft.svg"
+                    width={70}
+                    height={70}
+                    alt="logo of microsoft"
+                    className="object-contain"
+                  />
+                </Link>
+                <Link
+                  href="https://razorpay.com/"
+                  target="_blank"
+                  className="mt-5 flex items-center"
+                >
+                  <Image
+                    src="/images/razorpay.svg"
+                    width={70}
+                    height={70}
+                    alt="logo of razorpay"
+                    className="object-contain"
+                  />
+                </Link>
+              </div>
+            </div>
+
+            {/* <div className="mt-12 md:mt-0">
               <h3 className="mb-8 text-xl 2xl:mb-5">Contact us on</h3>
               <div className="space-y-8 text-sm tracking-[0.15px] md:text-base 2xl:space-y-5">
                 <div className="">
@@ -125,7 +198,7 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="hidden md:block">
             <h3 className="mb-5 text-xl">Sponcers</h3>
