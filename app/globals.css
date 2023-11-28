@@ -37,3 +37,7 @@ body {
     -webkit-text-stroke-width: 1px;
   }
 }
+
+.border__speaker {
+  border-radius: 0 0 6px 0;
+}
