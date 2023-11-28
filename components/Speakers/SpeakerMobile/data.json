@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Tanisha Sabherwal",
+    "designation": "Frontend Engineer , JP Morgan",
+    "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "links": [{ "twitter": "" }, { "linkedin": "" }, { "github": "" }],
+    "img": { "src": "", "alt": "" }
+  },
+  {
+    "id": 2,
+    "name": "Saurabh Daware",
+    "designation": "Frontend Engineer , Razorpay",
+    "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "links": [{ "twitter": "" }, { "linkedin": "" }, { "github": "" }],
+    "img": { "src": "", "alt": "" }
+  },
+  {
+    "id": 3,
+    "name": "Prateek Gogia",
+    "designation": "Frontend Engineer , JP Morgan",
+    "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "links": [{ "twitter": "" }, { "linkedin": "" }, { "github": "" }],
+    "img": { "src": "", "alt": "" }
+  },
+  {
+    "id": 4,
+    "name": "Neha Sharma",
+    "designation": "Frontend Engineer , Razorpay",
+    "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "links": [{ "twitter": "" }, { "linkedin": "" }, { "github": "" }],
+    "img": { "src": "", "alt": "" }
+  },
+  {
+    "id": 5,
+    "name": "Prateek Gogia",
+    "designation": "Frontend Engineer , JP Morgan",
+    "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "links": [{ "twitter": "" }, { "linkedin": "" }, { "github": "" }],
+    "img": { "src": "", "alt": "" }
+  },
+  {
+    "id": 6,
+    "name": "Neha Sharma",
+    "designation": "Frontend Engineer , Razorpay",
+    "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "links": [{ "twitter": "" }, { "linkedin": "" }, { "github": "" }],
+    "img": { "src": "", "alt": "" }
+  }
+]

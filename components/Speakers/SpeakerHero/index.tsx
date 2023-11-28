@@ -6,7 +6,7 @@ const SpeakerHero = () => {
   return (
     <section className="flex flex-col-reverse md:flex-row  mt-5">
       <div className="left md:w-1/2 mt-10 sm:mt-0">
-        <h1 className="title speaker-title text-center sm:text-left text-5xl sm:text-[4.688rem]">
+        <h1 className="title speaker-title text-center sm:text-left text-6xl sm:text-[4.688rem]">
           Speakers
         </h1>
         <p className="text-base text-center sm:text-left sm:text-[18px] leading-[1.5] font-medium md:w-[80%] my-6">

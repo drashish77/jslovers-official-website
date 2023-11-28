@@ -3,9 +3,8 @@ import React from "react";
 import data from "./data.json";
 import Link from "next/link";
 const Footer = () => {
-  // fixed bottom-0 left-0 right-0
   return (
-    <div className="relative z-50  pb-10 pt-10 ">
+    <div className="relative z-30  pb-10 pt-10 ">
       <div className=" bottom-0  md:container">
         <div className="flex flex-col justify-between pb-10 pl-5 md:flex-row  md:pl-0">
           <div className="relative h-12 w-36">
@@ -89,7 +88,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-between">
+            {/* <div className="flex justify-between">
               <div className="space-y-6 text-base tracking-[0.15px] md:space-y-5 md:text-xl">
                 {data.map((item) => {
                   return (
@@ -159,44 +158,6 @@ const Footer = () => {
                     className="object-contain"
                   />
                 </Link>
-              </div>
-            </div>
-
-            {/* <div className="mt-12 md:mt-0">
-              <h3 className="mb-8 text-xl 2xl:mb-5">Contact us on</h3>
-              <div className="space-y-8 text-sm tracking-[0.15px] md:text-base 2xl:space-y-5">
-                <div className="">
-                  <Link
-                    href="tel:+911234512345"
-                    className="flex items-center gap-4"
-                  >
-                    <Image
-                      src="/images/contacts/phone.svg"
-                      width={20}
-                      height={20}
-                      alt="contacts logo"
-                      className="object-contain"
-                    />
-                    <h3 className="">Call:</h3>
-                    <h3 className="">+91 12345 12345</h3>
-                  </Link>
-                </div>
-                <div className="">
-                  <Link
-                    href="mailto:jslovers@gmail.com"
-                    className="flex items-center gap-4"
-                  >
-                    <Image
-                      src="/images/contacts/email.svg"
-                      width={20}
-                      height={20}
-                      alt="contacts logo"
-                      className="object-contain"
-                    />
-                    <h3 className="">Email:</h3>
-                    <h3 className="">jslovers@gmail.com</h3>
-                  </Link>
-                </div>
               </div>
             </div> */}
           </div>

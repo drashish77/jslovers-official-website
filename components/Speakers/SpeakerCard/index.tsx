@@ -38,12 +38,16 @@ const SpeakerCard = (data: Speakers) => {
           </div>
           <div className="absolute border__speaker right-4 -bottom-3 w-[277px] h-[277px] border-[3px] border-t-0 border-l-0"></div>
         </div>
-        <h4 className="text-[40px] w-[75%] leading-[46px] font-bold text-black my-2 mt-8">
+        <h4 className="text-[40px] sm:w-[75%] text-center sm:text-left leading-[46px] font-bold text-black my-2 mt-8">
           {name}
         </h4>
-        <h6 className="text-[18px] font-normal ">{designation}</h6>
-        <p className="text-[14px] font-medium my-2">{desc}</p>
-        <div className="flex gap-3 mt-3">
+        <h6 className="text-[18px] font-normal  text-center sm:text-left">
+          {designation}
+        </h6>
+        <p className="text-[14px] font-medium my-2  text-center sm:text-left">
+          {desc}
+        </p>
+        <div className="flex justify-center sm:justify-start gap-3 mt-4">
           <Link
             href="https://www.facebook.com/groups/214962899049425/"
             target="_blank"
